@@ -1,0 +1,7 @@
+digraph {
+	city
+	"state/province"
+	"state/province" -> city
+	country
+	country -> "state/province"
+}
